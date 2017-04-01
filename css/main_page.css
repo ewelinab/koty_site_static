@@ -1,0 +1,109 @@
+.header
+{
+  font-family: 'Amatic SC', cursive;
+  color: #d6515e;
+  font-size: 72px;
+  text-align: center;
+}
+
+.menu
+{
+  text-align: center;
+  width: 800px;
+  margin-left: 35%;
+  margin-right: auto;
+  margin-top: 50px;
+  font-family: 'Nunito', sans-serif;
+  color: #d6515e;
+  font-size: 25px;
+}
+
+ul
+{
+  list-style-type: none;
+  margin-left: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+li
+{
+  float:left;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: #7A7A7A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #d6515e;
+}
+
+.container
+{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  float: right;
+  border-style: dotted;
+  border-color: grey;
+}
+
+.img
+{
+  opacity: 1;
+  display: block;
+  width: inherit;
+  height: inherit;
+  transition: .5s ease;
+}
+
+.bottom
+{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 420px;
+  left: 250px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+.container:hover .img
+{
+  opacity: 1;
+}
+
+.container:hover .bottom
+{
+  opacity: 1;
+  background-color:rgba(214,81,94,0.5);
+}
+
+.text
+{
+  text-align: center;
+}
+
+p
+{
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  white-space:nowrap;
+  opacity: 1;
+}
