@@ -18,6 +18,11 @@
   font-size: 25px;
 }
 
+.table table
+{
+  margin: 0 auto;
+}
+
 ul
 {
   list-style-type: none;
@@ -106,4 +111,62 @@ p
   color: white;
   white-space:nowrap;
   opacity: 1;
+}
+
+.contact
+{
+  text-align: center;
+  border-style: dotted;
+  border-color: grey;
+  width: 500px;
+  height: 325px;
+  margin-left: 37%;
+}
+
+.contact h2
+{
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  color: #d6515e;
+}
+
+.contact p
+{
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  color: grey;
+}
+
+.description
+{
+  width: 500px;
+  font-family: 'Nunito', sans-serif;
+  color: #47494f;
+  float: left;
+  margin-top: 21px;
+}
+
+.description td
+{
+  border-style: dotted;
+  border-color: grey;
+  text-align: center;
+}
+
+.description th
+{
+  border-style: dotted;
+  border-color: grey;
+  width: 200px;
+  text-align: center;
+}
+
+.table_cat
+{
+  margin-left: 20%;
+}
+
+.table_cat table
+{
+  float: left;
 }
